@@ -1,0 +1,2 @@
+AdminTask.createDatasource('"DB2 Universal JDBC Driver Provider(cells/localhostCell01/clusters/cluster-001|resources.xml#JDBCProvider_1715772155000)"', '[-name datasource -jndiName db2 -dataStoreHelperClassName com.ibm.websphere.rsadapter.DB2UniversalDataStoreHelper -containerManagedPersistence true -componentManagedAuthenticationAlias localhostCellManager01/DB2Alias -configureResourceProperties [[databaseName java.lang.String rajeev] [driverType java.lang.Integer 4] [serverName java.lang.String 10.0.0.114] [portNumber java.lang.Integer 50000]]]')
+AdminConfig.save()

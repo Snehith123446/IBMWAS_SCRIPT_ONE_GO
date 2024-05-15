@@ -1,0 +1,17 @@
+
+#Enter the bus name for JMS BUS creation
+busname=BUS01
+
+#ClusterName on which cluster you want to create the bus
+clusterName=cluster-001
+
+
+#JMSRESOURCES
+
+logDirectoryPath=/was9
+permanentStoreDirectoryPath=/was9
+temporaryStoreDirectory=/was9
+connectionFactoryName=qcf
+jndiName=jndi/qcf
+queueJNDI=jms/queue
+cellName=localhostCell01

@@ -1,0 +1,6 @@
+AdminTask.createSIBus('[-bus BUS01 -busSecurity true -scriptCompatibility 6.1 ]')
+AdminTask.getSecurityDomainForResource('[-resourceName SIBus=BUS01 -getEffectiveDomain false]')
+AdminTask.modifySIBus('[-bus BUS01 -busSecurity true -permittedChains SSL_ENABLED ]')
+AdminTask.listSIBuses()
+AdminConfig.save()
+AdminConfig.reset()

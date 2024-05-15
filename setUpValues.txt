@@ -1,0 +1,9 @@
+
+
+WAS_HOME=/was9/IBM/WebSphere/AppServer
+hostname=localhost
+adminUserName=wasadmin
+adminPassword=sarasu10
+soap=8879
+node1="${hostname}"Node01
+node2="${hostname}"Node02

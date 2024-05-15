@@ -1,0 +1,4 @@
+applicationPath=/was9/SendJmsMessageEar.ear
+clusterName=cluster-001 
+dmgrNodeName=localhostCellManager01
+cellName=localhostCell01

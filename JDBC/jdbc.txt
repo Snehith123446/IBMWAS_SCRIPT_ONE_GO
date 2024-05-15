@@ -1,0 +1,27 @@
+#Enter the details for the creation of J2CAlias 
+
+db2username=db2inst1
+db2password=sarasu10
+
+
+#Enter the details for creation of Provider
+ProviderName=db2Provider
+clusterName=cluster-001	
+db2jcc=/was9/db2jcc.jar
+db2jcc_license_cu=/was9/db2jcc_license_cu.jar
+nativePath=/opt/ibm/db2/V11.1
+
+#Enter the details for 
+
+
+dmgrNodeName=localhostCellManager01
+cellName=localhostCell01
+
+
+#Enter the details for the creation of Data source
+
+name=datasource   ##Name for the data source
+dataJndi=db2      ##Name of the jndi
+databaseName=rajeev
+serverName=10.0.0.114
+portNumber=50000
